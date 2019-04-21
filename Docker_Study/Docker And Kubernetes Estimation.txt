@@ -1,0 +1,55 @@
+https://docs.google.com/document/d/1jVM2Mj9i03TowF3CELEp5bGSqgx7t-YEU2d4TYm8IKc/edit
+
+Docker Basic Induction
+
+- What is a container? (15 minutes)
+- Difference between VM and Containers(Both pros and cons) (15 mins)
+- Docker Engine Architecture (30 mins)
+- What are Docker Images? (30 minutes)
+- How does Docker internally create a container? (1 hour)
+- Relation between Docker images and Docker Containers (Should get covered in above point only)
+- Awareness of Docker products other than Docker Engine [Registry, Compose, Machine, Swarm] (1 hour)
+- How to build custom Docker images? (1 hour)
+- Familiarity with Docker CLI & REST API: Basic commands like: ps, run, build, exec, rm, rmi, restart, stop, pull, history, create etc. Basic operations to try out. (3 hours)
+
+- How to check if container is still healthy?  (15 mins)
+- How does ID of Docker image get generated? (30 mins)
+  Link: http://windsock.io/explaining-docker-image-ids/
+- How do containers store data? (30 mins)
+- Docker Networking basics (3 hours)
+- How do containers communicate with one another? (Should get covered in above point only)
+  Link: https://docs.docker.com/engine/tutorials/networkingcontainers/#next-steps
+- How to access containers(and the apps running inside container) from outside? (30 mins)
+- How to preserve container data? (1 hour 30 mins) [Volumes]
+- Very basic familiarity with Docker Compose, Machine and Swarm(purpose, and basic terminologies) (30 mins)
+- How does image-layer caching work? (1 hour)
+- How does Docker(not container) store data? [For infrastructure inspection purpose][Optional] (1 hours)
+- Different options for storage [basic driver names and brief configuration with respect to Docker] (30 mins)
+- Different options for networking [basic driver names and brief configuration with respect to Docker] (1 hour)
+- How to run a single application divided into multiple containers? [Not part of basic docker][Optional](1 hour)
+
+Estimted: 18 hours 45 mins (Without optional: 17 hours)
+
+
+Kubernetes Basic Induction
+- What is Kubernetes? (30 mins)
+- Basic Understanding of Kubernetes Architecture
+	a. Nodes(2 hours):
+		Master Node: Components and Responsibilities
+		Worker Node: Components and Responsibilities
+		How does communication take place between nodes
+	b.	Pod (30 mins)
+	c.	Deployment (30 mins)
+	d.	Replica Set(30 mins)
+	e.	Daemon Sets(30 mins)
+	f.	Services(2 hours)
+	g.	Storage: Volumes and its types (2 hours)
+	h.	Autoscaling (1 hour)
+	i.	How to go inside a container in Kubernetes? (Similar to docker exec -it) (30 mins)
+	For Autoscaling, first monitoring(using heapster) needs to be understood
+
+- Log and Monitoring (2 hours)
+- Explore authentication mechanisms, user management strategies supported by Kubernetes with focus on RBAC (3 hours)
+- Installation, REST API & Tryouts of all concepts/components(including RBAC): 7 hours
+
+Estimated: 22 hours
